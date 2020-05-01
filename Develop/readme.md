@@ -1,4 +1,4 @@
-# b [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
+# my project title [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
   ## Table of Contents
   
@@ -14,30 +14,30 @@
   
   ## Description
   
-  c
+  description 
   
   ## Install & Updating
   
-  e
+  installation 
   
   ## Usage
   
-  f
+  usage
   
   ## License
   
-  g
+  licensing details
   
   ## Running Tests
   
-  u
+  tons
   
   ## Contributers
   
-  h
+  me
   
   ## GitHub Details 
   
-  GitHub Profile Picture: 
+  GitHub Avatar: https://avatars2.githubusercontent.com/u/57928106?v=4
   
-  GitHub email: 
+  GitHub email: null

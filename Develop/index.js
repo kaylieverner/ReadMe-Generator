@@ -55,19 +55,16 @@ function promptUser() {
   ])
 }; 
 
-function githubInfo(answers){
-  const queryUrl = `https://api.github.com/users/${answers.username}`;
-  axios 
-  .get(queryUrl)
-  .then(function (res) {
-    const email = res.data.email; 
-    const avatar = res.data.avatar_url; 
-  })
+async function githubInfo(username){
+  const queryUrl = `https://api.github.com/users/${username}`;
+  const data = await axios
+    .get(queryUrl)
+    .then(function(response) { return response.data })
+  console.log(data)
+  return data;
 };
 
-githubInfo();
-
-function generateFile(answers) {
+function generateFile(answers, email, avatar_url) {
   return `# ${answers.title} [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
   ## Table of Contents
@@ -108,7 +105,7 @@ function generateFile(answers) {
   
   ## GitHub Details 
   
-  GitHub Avatar: ${avatar}
+  GitHub Avatar: ${avatar_url}
   
   GitHub email: ${email}`
 }; 
@@ -116,7 +113,8 @@ function generateFile(answers) {
 async function init() {
   try {
     const answers = await promptUser();
-    const file = generateFile(answers); 
+    const {email, avatar_url} = await githubInfo(answers.username)
+    const file = generateFile(answers, email, avatar_url); 
     await writeFileAsync("readme.md", file); 
 
     console.log("Successfully generated readme file");
