@@ -24,11 +24,6 @@ function promptUser() {
     },
     {
       type: "input",
-      message: "Please indicate the table of contents.",
-      name: "contents"
-    },
-    {
-      type: "input",
       message: "Please detail the installation guidelines.",
       name: "installation"
     },
@@ -125,19 +120,3 @@ async function init() {
 }
 
 init();
-
-// //   .then(function ({ username }) {
-// //     const queryUrl = `https://api.github.com/users/${username}`;
-
-// //     axios
-// //       .get(queryUrl)
-// //       .then(function (res) {
-// //         // console.log(res.data);
-// //         const email = res.data.email;
-// //         const avatar = res.data.avatar_url;
-
-        
-
-
-// //       })
-// //   });
