@@ -56,7 +56,8 @@ function promptUser() {
 }; 
 
 async function githubInfo(username){
-  const queryUrl = `https://api.github.com/users/${username}`;
+  const queryUrl = `https://api.github.com/users/${username}?client_id=22779517f8aa3cdaf282&client_secret=18322306d00e4ba2747670c19e7df420e9b75343`;
+  
   const data = await axios
     .get(queryUrl)
     .then(function(response) { return response.data })
