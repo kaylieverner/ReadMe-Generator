@@ -1,4 +1,4 @@
-# laksjdf [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
+# The Greatest Project Ever [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
   ## Table of Contents
   
@@ -14,27 +14,27 @@
   
   ## Description
   
-  lsakfj
+  The description is...
   
   ## Install & Updating
   
-  asdflkj
+  The installation details are...
   
   ## Usage
   
-  salfjd
+  The intended usage is...
   
   ## License
   
-  sakljfd
+  The licensing details are as follows...
   
   ## Running Tests
   
-  a;slkdfj
+  The tests that were performed were...
   
   ## Contributers
   
-  ;asldkfj
+  Kaylie Verner contributed to this project.
   
   ## GitHub Details 
   

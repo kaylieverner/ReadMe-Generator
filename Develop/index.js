@@ -56,7 +56,6 @@ async function githubInfo(username){
   const data = await axios
     .get(queryUrl)
     .then(function(response) { return response.data })
-  console.log(data)
   return data;
 };
 
